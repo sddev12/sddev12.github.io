@@ -11,6 +11,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -68,11 +69,21 @@
                 <div class="d-flex justify-content-center">
                     <h4>Procedural Generation With Cellular Automaton</h4>
                 </div>
+                <div class="d-block mt-3 p-3">
+                    <p>Use the settings below to procedurally generate a simple tilemap using <a href="https://www.techtarget.com/searchenterprisedesktop/definition/cellular-automaton" target="_blank" rel="noopener noreferrer">cellular automaton.</a></p>
+                    <p>The point of this is to procedurally generate something that looks like a simple map in the pane on the left.</p>
+                    <p>We can define our settings to influcence the overall 'shape' of the map, then keep hitting the generate button to generate a different map each time.</p>
+                    <p>This type of procedural generation is commonly used in video games, enabling you to have an infinite number of different maps to play on.</p>
+                </div>
                 <div class="d-flex justify-content-center mt-3">
-                    <p>Use the settings below to procedurally generate a simple tilemap using cellular automaton.</p>
+                    
                 </div>
                 <div class="d-flex justify-content-center">
                     <a href="#" class="text-black" data-bs-toggle="modal" data-bs-target="#instructions">How does it work?</a>
+                </div>
+                <div class="d-flex pt-3 pb-3 justify-content-center">
+                    <i class="fa fa-github" style="font-size:36px"></i>
+                    <a class="p-2 text-black" href="https://github.com/sddev12/sddev12.github.io" target="_blank" rel="noopener noreferrer">Check the code on GitHub</a><p class="p-2"></p>
                 </div>
                 <div class="mb-3 mt-5">
                     <label for="initialRatio" class="form-label">Initial Ratio - This should be a value between 0 and 1</label>
