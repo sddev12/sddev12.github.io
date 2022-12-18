@@ -33,10 +33,10 @@
                             <p class="card-text">We create a grid of empty tiles and then iterate over each setting them
                                 randomly to 'on' or 'off'.</p>
                             <p class="card-text">In our case, 'on' being land and 'off' being water.</p>
-                            <p class="card-text">At this stage we can use a value between 0 and 1 as a <b>ratio</b> of
+                            <p class="card-text">At this stage we can use a value between 0 and 1 as a <b>Initial Ratio</b> of
                                 land to
                                 water in order to influence this first step of the generation.</p>
-                            <p class="card-text">If we set the <b>ratio</b>
+                            <p class="card-text">If we set the <b>Initial Ratio</b>
                                 < 0.5 we yield more land.> 0.5 and we yield more
                                     water.</0.5>
                             </p>
@@ -48,10 +48,10 @@
                             <p class="card-text">We iterate over each tile again, this time assessing each of the 8
                                 neighbouring tiles.</p>
                             <p class="card-text">If the number of neighbouring water tiles is greater than a defined
-                                <b>threshold</b>, the current tile will be set to water and the same vice versa.
+                                <b>Neighbour Threshold</b>, the current tile will be set to water and the same vice versa.
                             </p>
-                            <p class="card-text">Changing the <b>threshold</b> will also influence the end result.</p>
-                            <p class="card-text">Lastly, we can run multiple cellular automaton <b>passes</b> over our
+                            <p class="card-text">Changing the <b>Neighbour Threshold</b> will also influence the end result.</p>
+                            <p class="card-text">Lastly, we can run multiple cellular automaton <b>Cellular Automaton Passes</b> over our
                                 tilemap to refine the end result even further.</p>
                             <p class="card-text"></p>
                         </div>
