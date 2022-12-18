@@ -1,0 +1,19 @@
+#gameCanvas {
+border: 5px solid grey;
+}
+
+.controlsContainer {
+    margin-top: 1rem;
+}
+
+.pWrapper {
+    margin: 1rem;
+}
+
+.col {
+    padding: 0;
+}
+
+.input {
+    max-width: 5rem;
+}
